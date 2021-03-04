@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="https://i.postimg.cc/XvBpkjBk/noun-rock-paper-scissors-2699125.png">
+    <link rel="stylesheet" href="./app.css" />
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <header>
+      <h1>Rock Paper Scissors</h1>
+    </header>
+
+    <div class="score-board">
+      <div id="user-label" class="badge">user</div>
+      <div id="computer-label" class="badge">comp</div>
+      <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+    <div class="result">
+      <p>Paper covers rock. You win!</p>
+    </div>
+    <div class="choices">
+      <div class="choice" id="r">
+        <img
+          src="https://cdn0.iconfinder.com/data/icons/rock-paper-scissors-emoji/792/rock-paper-scissors-emoji-cartoon-027-256.png"
+          alt=""
+        />
+      </div>
+      <div class="choice" id="p">
+        <img
+          src="https://cdn.xl.thumbs.canstockphoto.com/notebook-paper-holding-a-pencil-cartoon-illustration-of-a-notebook-paper-holding-a-pencil-clip-art-vector_csp10291666.jpg"
+          alt=""
+        />
+      </div>
+      <div class="choice" id="s">
+        <img
+          src="https://content.mycutegraphics.com/graphics/school/scissors-cartoon.png"
+          alt=""
+          width="200"
+          height="200"
+        />
+      </div>
+    </div>
+
+    <p id="action-message">Make your move.</p>
+    <script src="./app.js" charset="utf-8"></script>
+  </body>
+</html>
